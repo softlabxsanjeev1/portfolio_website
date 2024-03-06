@@ -5,10 +5,6 @@ const About = () => {
     image: bannerImage,
     title: "MERN Developer  Android Developer",
     desc1: ` I'm a Full Stack Web Developer skilled in MERN stack. My passion for software lies with dreaming up ideas and making them come true with elegant interfaces.I focus on writing clean, elegant and efficient code. `,
-    // desc2: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-    // dignissimos esse itaque impedit quas omnis odit, velit ullam
-    // suscipit? Vel obcaecati pariatur voluptatem sapiente.
-    // Necessitatibus vero laborum nam quaerat ullam?`
     actionButton: {
       title: "Projects....",
       link: "../components/Projects.js",
@@ -36,7 +32,6 @@ const About = () => {
             <div className="space-y-5   w-2/3">
               <h1 className="text-5xl  font-semibold ">{data.title}</h1>
               <p>{data.desc1}</p>
-              <p>{data.desc2}</p>
               <button className="bg-orange-500 px-3 py-2 text-2xl rounded-full shadow-lg">
                 {data.actionButton.title}
               </button>

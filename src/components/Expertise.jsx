@@ -56,7 +56,7 @@ const Expertise = () => {
                 JAVASCRIPT
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
-                C/C++ , Dart
+                C/C++
               </p>
               <p className="bg-gray-300 w-fit px-3 py-2 mt-2 rounded-full hover:bg-orange-500 cursor-pointer">
                 NextJS

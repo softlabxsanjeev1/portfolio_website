@@ -17,7 +17,7 @@ const Header = () => {
 
   const [actionButton, setActionButton] = useState({
     title: "Download CV",
-    link: 'https://drive.google.com/file/d/1bwObVC3emKEK-pSptaSLbFgrOAQ4VyH4/view?usp=drive_link'
+    link: 'https://drive.google.com/file/d/1MreEb44j5izeIsVx9Fl83gJW8LUQV9eL/view?usp=drive_link'
   });
 
   return (

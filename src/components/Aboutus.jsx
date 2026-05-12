@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import sanjeev from "../assets/sanjeevimage.png"
 import {
   FaGithub,
   FaLinkedinIn,
@@ -128,7 +129,7 @@ const Aboutus = () => {
 
             {/* Image */}
             <img
-              src="/src/assets/sanjeevimage.png"
+              src={sanjeev}
               alt="About"
               className="relative z-10 w-full max-w-md rounded-[40px] shadow-[0_20px_60px_rgba(0,134,255,0.25)] object-cover border border-blue-100"
             />

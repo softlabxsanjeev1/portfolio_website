@@ -1,24 +1,72 @@
+// images 
+import html from "../assets/images/html.png";
+import css from "../assets/images/css.jpeg";
+import tailwindcss from "../assets/images/tailwaind.jpeg";
+import javascript from "../assets/images/javascript.png";
+import react from "../assets/images/react.png";
+import nextjs from "../assets/images/nextjs.png";
+import nodejs from "../assets/images/nodejs.png";
+import express from "../assets/images/expressjs.png";
+import mongodb from "../assets/images/mongodb.png";
+import sql from "../assets/images/mysql.png";
+import postgres from "../assets/images/postgress.png";
+import docker from "../assets/images/docker.png";
+import github from "../assets/images/github.png";
+import vps from "../assets/images/vps.jpeg";
+
+
+// thumbnail images 
+import lee1 from "../assets/projects/leehome1.png"
+import pharmaclosing1 from "../assets/projects/pharmacloasing1.png"
+import mlee1 from "../assets/projects/mlle1.png"
+import arcoders1 from "../assets/projects/arcoders.png"
+import studym1 from "../assets/projects/studymaterial1.png"
+import admind1 from "../assets/projects/admndashboard4.png"
+import lightstore1 from "../assets/projects/lightwebsite.png"
+import printocraft3d1 from "../assets/projects/3d-printocraft.png"
+import oldelectronicshome1 from "../assets/projects/oldelectronicshome1.png"
+
+// other images 
+import lee2 from "../assets/projects/leehome2.png"
+import lee3 from "../assets/projects/leehome3.png"
+import pharmaclosing2 from "../assets/projects/pclosing2.png"
+import pharmaclosing3 from "../assets/projects/pclosing3.png"
+import pharmaclosing4 from "../assets/projects/pclosing4.png"
+import mlee2 from "../assets/projects/mlle2.png"
+import mlee3 from "../assets/projects/mlle3.png"
+import mlee4 from "../assets/projects/mlle4.png"
+import mlee5 from "../assets/projects/mlle5.png"
+import studym2 from "../assets/projects/studymatrtial2.png"
+import studym3 from "../assets/projects/studymaterrial3.png"
+import studym4 from "../assets/projects/studymaterial4.png"
+import admind2 from "../assets/projects/admindashboard1.png"
+import admind3 from "../assets/projects/admindashboard2.png"
+import admind4 from "../assets/projects/admindashboard5.png"
+import oldelectronicshome2 from "../assets/projects/oldeelectronicshome2.png"
+import oldelectronicshome3 from "../assets/projects/oldelectronicshome3.png"
+
+
+
+
+
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    slug: "ecommerce-platform",
+    title: "Lee Home Packers and Movers",
+    slug: "transportation",
     category: "Web Development",
 
     // Main Thumbnail
-    thumbnail: "/images/projects/ecommerce/main.png",
+    thumbnail:lee1,
 
     // Multiple Project Images
     images: [
-      "/images/projects/ecommerce/home.png",
-      "/images/projects/ecommerce/admin.png",
-      "/images/projects/ecommerce/user.png",
-      "/images/projects/ecommerce/seller.png",
+     lee1,lee2,lee3
     ],
 
     // Live Links
-    liveLink: "https://yourwebsite.com",
-    githubLink: "https://github.com/username/project",
+    liveLink: "https://leehomepackers.com",
+    githubLink:"Private",
 
     // Short Description
     shortDescription:

@@ -5,7 +5,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contactus from "../components/Contactus";
 import Qualification from "../components/Qualification";
-// import Imagegalary from "../components/Imagegalary";
+import Imagegalary from "../components/Imagegalary";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
         <Projects />
       </section>
        <section id="imagegallery">
-        {/* <Imagegalary /> */}
+        <Imagegalary />
       </section>
       <section id="contact">
         <Contactus />

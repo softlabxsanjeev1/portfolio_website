@@ -1,4 +1,7 @@
 import React from "react";
+import leehome from "../assets/company/leehomepackersandmovers.jpeg";
+import softlabx from "../assets/company/softlax.jpeg";
+import arcoders from "../assets/company/arcoders.jpeg";
 
 const Experience = () => {
   return (
@@ -37,7 +40,7 @@ const Experience = () => {
               <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-[#0047b3] to-[#0086ff] p-[2px] shadow-lg">
                 <div className="w-full h-full rounded-3xl bg-white flex items-center justify-center overflow-hidden">
                   <img
-                    src="/src/assets/company/arcoders.jpeg"
+                    src={arcoders}
                     alt="Arcoders"
                     className="w-16 h-16 object-contain"
                   />
@@ -108,7 +111,7 @@ const Experience = () => {
               <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-[#0047b3] to-[#0086ff] p-[2px] shadow-lg">
                 <div className="w-full h-full rounded-3xl bg-white flex items-center justify-center overflow-hidden">
                   <img
-                    src="/src/assets/company/leehomepackersandmovers.jpeg"
+                    src={leehome}
                     alt="Lehhome Packers and Movers"
                     className="w-16 h-16 object-contain"
                   />
@@ -159,7 +162,7 @@ const Experience = () => {
               <div className="w-24 h-24 rounded-3xl bg-gradient-to-br from-[#0047b3] to-[#0086ff] p-[2px] shadow-lg">
                 <div className="w-full h-full rounded-3xl bg-white flex items-center justify-center overflow-hidden">
                   <img
-                    src="/src/assets/company/softlax.jpeg"
+                    src={softlabx}
                     alt="Softlabx"
                     className="w-16 h-16 object-contain"
                   />

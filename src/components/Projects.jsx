@@ -1,49 +1,56 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
+import leehome from "../assets/projects/leehome1.png";
+import pharmaclosing from "../assets/projects/pharmacloasing1.png";
+import mlle from "../assets/projects/mlle1.png";
+import studymaterial from "../assets/projects/studymaterial1.png";
+import admindashboard from "../assets/projects/admndashboard4.png";
+import lightstore from "../assets/projects/lightwebsite.png";
+
 
 const projects = [
-  {
+   {
     id: 1,
-    title: "Study Material Platform",
-    category: "Web Solution",
-    websiteLink: "https://studymaterial.com",
-    image: "/src/assets/projects/studymaterial1.png",
+    title: "Lee Home Packers and Movers",
+    category: "Web Development",
+    websiteLink: "https://leehomepackers.com",
+    image:leehome,
   },
-  {
+   {
     id: 2,
-    title: "Admin Dashboard",
-    category: "Custom Software",
-    websiteLink: "https://ecommerce.com",
-    image: "/src/assets/projects/admndashboard4.png",
+    title: "Pharmaclosing",
+    category: "Web Solutions",
+    websiteLink: "https://pharmaclosing.com/",
+    image: pharmaclosing,
   },
   {
     id: 3,
-    title: "Light Store e-commerce website",
+    title: "Mlle Skin care website",
     category: "Web Development",
-    websiteLink: "https://ecommerce.com",
-    image: "/src/assets/projects/lightwebsite.png",
+    websiteLink: "https://mlle.in/",
+    image: mlle,
   },
   {
     id: 4,
-    title: "printocraft3D website",
-    category: "Web Development",
-    websiteLink: "https://ecommerce.com",
-    image: "/src/assets/projects/3d-printocraft.png",
+    title: "Study Material Platform",
+    category: "Web Solution",
+    websiteLink: "https://studymaterial.com",
+    image: studymaterial,
   },
   {
     id: 5,
-    title: "Old Electronics Platform",
-    category: "Web Development",
+    title: "Admin Dashboard",
+    category: "Custom Software",
     websiteLink: "https://ecommerce.com",
-    image: "/src/assets/projects/oldeelectronicshome2.png",
+    image:admindashboard,
   },
   {
     id: 6,
-    title: "Real Estate Portal",
-    category: "Web Solutions",
-    websiteLink: "https://realestate.com",
-    image: "/src/assets/projects/realestate2.png",
+    title: "Light Store e-commerce website",
+    category: "Web Development",
+    websiteLink: "https://ecommerce.com",
+    image:lightstore,
   },
 ];
 

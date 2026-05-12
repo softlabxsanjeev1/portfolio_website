@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Import Images
-import presentation1 from "../assets/presentation1.jpg";
-import presentation2 from "../assets/presentation2.jpg";
-import presentation3 from "../assets/presentation3.jpg";
-import presentation4 from "../assets/presentation4.jpg";
+import presentation1 from "../assets/gallary/img1.jpeg";
+import presentation2 from "../assets/gallary/img2.jpeg";
+import presentation3 from "../assets/gallary/img3.jpeg";
+import presentation4 from "../assets/gallary/img4.jpeg";
+import presentation5 from "../assets/gallary/img5.jpeg";
+import presentation6 from "../assets/gallary/img6.jpeg";
+import presentation7 from "../assets/gallary/img7.jpeg";
+import presentation8 from "../assets/gallary/img8.jpeg";
+import presentation9 from "../assets/gallary/img9.jpeg";
+import presentation10 from "../assets/gallary/img10.jpeg";
+
 
 const Imagegalary = () => {
   const images = [
@@ -13,6 +20,12 @@ const Imagegalary = () => {
     presentation2,
     presentation3,
     presentation4,
+    presentation5,
+    presentation6,
+    presentation7,
+    presentation8,
+    presentation9,
+    presentation10,
   ];
 
   const [currentImage, setCurrentImage] = useState(0);

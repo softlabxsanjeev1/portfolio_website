@@ -108,7 +108,7 @@ const Projectdetail = () => {
           </div>
 
           {/* Thumbnails */}
-          <div className="flex gap-4 mt-6 overflow-x-auto pb-2">
+          {/* <div className="flex gap-4 mt-6 overflow-x-auto pb-2">
             {project.images?.map((image, index) => (
               <button
                 key={index}
@@ -126,7 +126,7 @@ const Projectdetail = () => {
                 />
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* ================= PROJECT DETAILS ================= */}

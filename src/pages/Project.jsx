@@ -58,30 +58,6 @@ const Project = () => {
                   {project.title}
                 </h3>
 
-                {/* Short Description */}
-                <p className="text-gray-700 leading-7 text-[15px] mb-5">
-                  {project.shortDescription}
-                </p>
-
-                {/* Tech Stack */}
-                <div className="flex flex-wrap gap-2 mb-6">
-                  
-                  {project.techStack.slice(0, 3).map((tech, index) => (
-                    <div
-                      key={index}
-                      className="bg-white border border-blue-100 px-3 py-2 rounded-full text-sm font-semibold text-[#005fcc] flex items-center gap-2"
-                    >
-                      <img
-                        src={tech.image}
-                        alt={tech.name}
-                        className="w-4 h-4 object-contain"
-                      />
-
-                      {tech.name}
-                    </div>
-                  ))}
-                </div>
-
                 {/* Buttons */}
                 <div className="flex items-center gap-3">
                   

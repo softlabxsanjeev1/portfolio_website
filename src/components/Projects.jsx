@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Study Material Platform",
+    title: "Study Material",
     category: "Web Solution",
     websiteLink: "https://studymaterial.com",
     image: studymaterial,
